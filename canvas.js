@@ -50,7 +50,7 @@ var mouse = {
 var maxradius = 40;
 // var minradius = 5;
 
-var colorArray =['#010326','#6DA0A6','#F2EEB3','#F29F05','#F28705'];
+var colorArray =['#2E90A6','#18D9C5','#A0F2E3','#F2C641','#F2F2F2'];
 window.addEventListener('mousemove' , function(event){
     mouse.x=event.x;
     mouse.y=event.y;

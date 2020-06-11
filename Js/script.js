@@ -31,7 +31,7 @@ function Circle( x , y , dx , dy , rad) {
     this.draw = function () {
         c.beginPath();
         c.arc(this.x,this.y,this.rad,0,Math.PI*2,false);
-        c.fillStyle = '#a3a3a3';
+        c.fillStyle = '#DEA407';
         c.fill();
         for(var i=0;i<circleArray.length;i++)
         {
@@ -49,7 +49,7 @@ var lineMaker = function(x1,y1,x2,y2){
                 c.beginPath();
                 c.moveTo(x1,y1);
                 c.lineTo(x2,y2);
-                c.strokeStyle = "#a3a3a3";
+                c.strokeStyle = "#DEA407";
                 c.stroke();
             }
 }

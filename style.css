@@ -1,9 +1,8 @@
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
 canvas{
-    border: 2px solid #111;
-    background-color: rgb(64, 90, 146);
+    background-color: #111;
 }
